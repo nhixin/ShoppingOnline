@@ -1,0 +1,86 @@
+select {
+    font-family: American Typewriter, serif;
+    position: absolute;
+    right: 5%;
+    top:20px;
+    font-size: xx-large; 
+    font-weight: bold;  
+    text-align: center; 
+    border: 8px solid rgb(255, 192, 215);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px rgba(138, 136, 136, 0.794);
+}
+
+body {
+    font-family: American Typewriter, serif;
+    background-color: rgb(188, 217, 227);
+}
+
+p {
+    font-size: large;
+}
+
+
+.column {
+    float: left;
+}
+
+#info {
+    position: relative;
+    top: 40px;
+    left: 2%;
+}
+
+.left {
+    position: relative;
+    top: 40px;
+    left: 2%;
+    width: 15%;
+}
+
+.middle {
+    position: relative;
+    top: 40px;
+    left: 10%;
+    width: 35%;
+}
+
+.right {
+    position: relative;
+    top: 65px;
+    left: 12%;
+    width: 28%;
+    height: auto;
+    border: 15px solid rgb(255, 192, 215);
+    background-color: rgb(255, 227, 237);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px rgba(138, 136, 136, 0.794);
+    padding: 10px;
+}
+
+#submitButton {
+    position: relative;
+    left: 40%;
+    font-family: American Typewriter, serif;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    border: 8px solid rgb(255, 192, 215);
+    background-color: rgb(255, 227, 237);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+#submitButton:hover {
+    font-family: American Typewriter, serif;
+    border: 8px solid rgb(146, 178, 187);
+    background-color: rgb(188, 217, 227);
+    color: white;
+}
+
+.allRemoveButtons {
+    background-color:inherit;
+    border:none;
+    cursor:pointer;
+}
+
